@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" rx="200" fill="#FFD400"/>
+  <!--
+    EYFEL "E" monogram, centered.
+    The glyph (after the inner translate/scale) occupies the 1080 viewBox at
+    x 70..226 (centre 148, w 156) and y 309..577 (centre 443, h 268).
+    Outer transform: move box centre (540,540) to origin, scale 2.33x to fill
+    ~58% of the box, then shift the glyph centre (148,443) to the origin.
+  -->
+  <g transform="translate(540 540) scale(2.33) translate(-148 -443)">
+    <g transform="translate(0,1080) scale(0.1,-0.1)" fill="#000000">
+      <path d="M715 7680 c-13 -26 -15 -177 -14 -1297 0 -698 4 -1286 7 -1308 l7 -40 730 -3 c402 -2 749 0 773 3 l42 6 0 179 c0 173 -1 179 -22 194 -19 14 -91 16 -547 16 -361 -1 -528 3 -535 10 -8 7 -11 124 -11 359 0 280 3 351 14 364 12 15 53 17 403 17 249 0 396 4 409 10 18 10 19 23 19 184 0 131 -3 176 -13 184 -9 8 -141 12 -405 14 -360 3 -393 4 -409 21 -17 16 -18 44 -18 340 0 177 3 334 8 350 l7 27 523 1 c287 1 533 4 547 8 46 12 37 47 -52 214 -68 128 -88 159 -111 167 -17 6 -280 9 -682 10 l-655 0 -15 -30z"/>
+    </g>
+  </g>
+</svg>
